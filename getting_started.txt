@@ -1,0 +1,32 @@
+The steps below will get you started running the notebooks in your browser.
+
+1) Install Python. We recommend using a distribution such as Anaconda (https://www.anaconda.com/products/individual).
+   The code should run with several versions of Python but has mostly been tested with Python 3.8
+
+2) Create your Python environment. With Anaconda, start the Anaconda Prompt from the Start Menu and run
+            conda create --name mclaren-maze-race python=3.8
+
+  > When prompted press y to proceed. When the command has finished, run
+            conda activate mclaren-maze-race
+
+3) Change to the project directory. Run the below but you will first need to fill in the full path to the folder where you cloned the repository. It's the folder this file is in.
+	    cd C:\path\to\project\directory
+
+4) Install the required packages. Run the below, the requirements file is in the same directory that you should have just switched to
+            conda install --file requirements.txt
+
+  > When prompted press y to proceed with the package installation.
+
+5) Start the Jupyter notebook server. Still in the Anaconda prompt, type,
+            python -m notebook
+  > If prompted, open your usual web browser. 
+  > You should see a list of the files in this repository. 
+  > You want to work through the files named "level....ipynb". 
+  > Clicking on their name will open them.
+
+6) Use the notebooks
+  > The cells in the notebooks should be pre-populated with all the figures and other output. 
+  > If you want to re-run any cell use the >| button at the side of the cell or press ctrl-enter when the cell is highlighted.
+  > You will need to wait for the kernel to connect and start up before running code
+  > You might additionally need to "trust" the notebook before it will run
+  > Have fun!
