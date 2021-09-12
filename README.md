@@ -16,7 +16,7 @@ Once you complete level 3, "Rookie Driver", you will be able to submit your own 
 
 The main interaction points are a series of Jupyter notebooks, one for each level. There are various ways you can get stuck in:
 
-• <a href="https://mybinder.org/v2/gh/mclaren-maze-race/test/HEAD">View and run the notebooks on MyBinder</a>. You will be able to run through all the levels, reading the explanations and running the code examples to see the AI learn. You won't be able to save any edits you make though, so if you want to get stuck into designing your own AI then you will need the next option.
+• <a href="https://mybinder.org/v2/gh/mclaren-maze-race/mclaren-maze-race/HEAD">View and run the notebooks on MyBinder</a>. You will be able to run through all the levels, reading the explanations and running the code examples to see the AI learn. You won't be able to save any edits you make though, so if you want to get stuck into designing your own AI then you will need the next option.
 
 • Download the repository from GitHub. This gives you full access to all the code and you can run and edit it on your own computer. You will need Python installed on your computer, but look out for the "getting_started.txt" text file, which will walk you through all the steps you need to take.
 
