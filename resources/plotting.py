@@ -8,6 +8,7 @@ import numpy as np
 import os
 import json
 from typing import List
+from IPython.display import clear_output, display, clear_output
 
 from resources.actions import Action
 from resources.states import *
@@ -29,8 +30,9 @@ class RacePlotterOneCar:
         self.num_pit_stops = 0
 
         # Set up figure and axes
-        self.figure = plt.gcf()
-        self.figure.clear()
+        self.figure = plt.figure(figsize=(9, 5))
+        clear_output()
+        self.hdisplay = display(self.figure, display_id=True)
         self.ax_track = self.figure.add_axes([0.05, 0.05, 0.45, 0.9])
 
         self.ax_time = self.figure.add_axes([0.55, 0.85, 0.4, 0.1], frame_on=False)
@@ -110,8 +112,7 @@ class RacePlotterOneCar:
         self.ax_results.set_ylim([0, 0.5])
 
         # Draw
-        self.figure.canvas.draw()
-        plt.pause(0.01)
+        self.hdisplay.update(self.figure)
 
         # Save
         if self.save_flag:
@@ -186,8 +187,7 @@ class RacePlotterOneCar:
         self.figure.set_facecolor('r' if result.crashed else 'w')
 
         # Draw
-        self.figure.canvas.draw()
-        plt.pause(0.01)
+        self.hdisplay.update(self.figure)
 
         # Save if required
         if self.save_flag:
