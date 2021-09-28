@@ -21,6 +21,6 @@ The main interaction points are a series of Jupyter notebooks, one for each leve
 • Download the repository from GitHub. This gives you full access to all the code and you can run and edit it on your own computer. You will need Python installed on your computer, but look out for the "getting_started.txt" text file, which will walk you through all the steps you need to take.
 
 ## The Maze Race Challenge
-Once you reach level 3 you can take part in the **Maze Race Challenge** - race your AI driver against others from across the world. The fastest driver when the chequered flag drops in Abu Dhabi (12th December 2021) wins an exclusive McLaren prize. For more details, see the [McLaren Maze Race website](https://www.mclaren.com/mazerace)
+Once you reach level 3 you can take part in the **Maze Race Challenge** - race your AI driver against others from across the world. The fastest driver when the chequered flag drops in Abu Dhabi (12th December 2021) wins an exclusive prize: an official McLaren Team polo shirt, signed by both our drivers. For more details, see the [McLaren Maze Race website](https://www.mclaren.com/mazerace)
 
 Have fun and [let us know how you get on!](https://forms.office.com/Pages/ResponsePage.aspx?id=1D5YJvyfwkadGvDKNaMKjclg_cyBBFJPg8x5VJ87DGJUNlNFTlVHS05LTUpKRk8xR04zOFVORFg3VS4u)
