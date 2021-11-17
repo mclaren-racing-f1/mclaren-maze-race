@@ -690,7 +690,7 @@ class ProDriver(RookieDriver):
                 x_inputs.append(x_in)
                 x_targets.append(x_tar)
 
-        if len(y_inputs) > 0 and len(x_inputs):
+        if len(y_inputs) > 0 and len(x_inputs) and len(np.vstack(x_inputs)):
             y_inputs_all = np.vstack(y_inputs)
             y_targets_all = np.vstack(y_targets)
             x_inputs_all = np.vstack(x_inputs)
